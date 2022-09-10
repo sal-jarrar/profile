@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [status, setStatus] = useState(false);
+  const toggle = () => setStatus(!status);
+  const rotate = status ? "close" : "";
   return (
     <header>
-      <div className="menu-btn">
+      <div onClick={toggle} className={`menu-btn ${rotate}`}>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
