@@ -1,3 +1,5 @@
+import img from "../assets/img/background.jpeg";
+
 export const getNavItems = (route, show) => {
   return [
     {
@@ -26,3 +28,10 @@ export const getNavItems = (route, show) => {
     },
   ];
 };
+
+export const projects = [
+  { id: 1, href: "#", img, gitLink: "#" },
+  { id: 2, href: "#", img, gitLink: "#" },
+  { id: 3, href: "#", img, gitLink: "#" },
+  { id: 4, href: "#", img, gitLink: "#" },
+];
