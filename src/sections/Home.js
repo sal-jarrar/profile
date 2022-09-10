@@ -6,18 +6,16 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Home = () => {
+const Home = ({ status }) => {
+  const overlay = status ? "overlay" : "";
   return (
-    // <div id="bg-img">
-
-    <main id="home">
-      // <div className="overlay"></div>
+    <main id={`home`} className={overlay}>
       <h1 className="lg-heading">
-        John
-        <span className="text-secondary">Doe</span>
+        Sal
+        <span className="text-secondary"> Jarrar</span>
       </h1>
       <h2 className="sm-heading">
-        Web Developer, Programmer, Designer & Entrepreneur
+        Full Stack Engineer , Web Developer & Programmer
       </h2>
       <div className="icons">
         <a href="#!">
@@ -32,7 +30,6 @@ const Home = () => {
         </a>
       </div>
     </main>
-    // </div>
   );
 };
 
