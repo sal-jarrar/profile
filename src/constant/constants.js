@@ -23,8 +23,8 @@ export const getNavItems = (route, show) => {
     {
       id: 4,
       name: "How To Reach Me",
-      href: "#reach",
-      className: `nav-item ${route === "#reach" ? "current" : ""} ${show}`,
+      href: "#contact",
+      className: `nav-item ${route === "#contact" ? "current" : ""} ${show}`,
     },
   ];
 };
