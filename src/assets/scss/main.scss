@@ -30,6 +30,10 @@ h3 {
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
+.job-heading {
+  z-index: 1;
+  position: relative;
+}
 
 a {
   color: #fff;

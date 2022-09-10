@@ -5,20 +5,22 @@ const Contact = () => {
   return (
     <>
       <main id="contact">
-        <h1 class="lg-heading">
+        <h1 className="lg-heading job-heading">
           Contact
-          <span class="text-secondary"> Me</span>
+          <span className="text-secondary job-heading"> Me</span>
         </h1>
-        <h2 class="sm-heading">This is how you can reach me...</h2>
-        <div class="boxes">
+        <h2 className="sm-heading job-heading">
+          This is how you can reach me...
+        </h2>
+        <div className="boxes">
           <div>
-            <span class="text-secondary">Email: </span> jarrarsal@gmail.com
+            <span className="text-secondary">Email: </span> jarrarsal@gmail.com
           </div>
           <div>
-            <span class="text-secondary">Phone: </span> (707) 334-9493
+            <span className="text-secondary">Phone: </span> (707) 334-9493
           </div>
           <div>
-            <span class="text-secondary">Address: </span> Vallejo - CA
+            <span className="text-secondary">Address: </span> Vallejo - CA
           </div>
         </div>
       </main>
