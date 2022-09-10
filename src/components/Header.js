@@ -3,7 +3,7 @@ import { getNavItems } from "../constant/constants";
 import NavItem from "./NavItem";
 
 const Header = ({ status, toggle }) => {
-  const [route, setRoute] = useState("home");
+  const [route, setRoute] = useState("#home");
   const rotate = status ? "close" : "";
   const show = status ? "show" : "";
   const navItems = getNavItems(route, show);
@@ -21,7 +21,7 @@ const Header = ({ status, toggle }) => {
         </div>
         <ul className={`menu-nav ${show}`}>
           {navItems.map((navItem) => (
-            <NavItem key={navItem.id} {...navItem} />
+            <NavItem key={navItem.id} {...navItem} setRoute={setRoute} />
           ))}
         </ul>
       </nav>

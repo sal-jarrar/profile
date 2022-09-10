@@ -1,8 +1,8 @@
 import React from "react";
 
-const NavItem = ({ name, href, className }) => {
+const NavItem = ({ name, href, className, setRoute }) => {
   return (
-    <li className={className}>
+    <li className={className} onClick={() => setRoute(href)}>
       <a href={href} className="nav-link">
         {name}
       </a>
