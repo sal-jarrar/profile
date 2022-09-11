@@ -1,4 +1,4 @@
-import React from "react";
+import sal from "../assets/img/sal.jpeg";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
           Let me tell you a few things...
         </h2>
         <div className="about-info">
-          <img src="img/portrait.jpg" alt="Sal Jarrar" className="bio-image" />
+          <img src={sal} alt="Sal Jarrar" className="bio-image" />
 
           <div className="bio">
             <h3 className="text-second job-heading">BIO</h3>

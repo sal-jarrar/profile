@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import resume from "../assets/resume.pdf";
 
 const Contact = () => {
   return (
@@ -21,6 +22,16 @@ const Contact = () => {
           </div>
           <div>
             <span className="text-second">Address: </span> Vallejo - CA
+          </div>
+          <div>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              // class="btn btn-outline-secondary my-3"
+            >
+              Download My Resume
+            </a>
           </div>
         </div>
       </main>
