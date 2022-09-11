@@ -1,10 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {
-  faTwitter,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Home = ({ status }) => {
   const overlay = status ? "overlay" : "";
@@ -18,14 +13,18 @@ const Home = ({ status }) => {
         Full Stack Engineer , Web Developer & Programmer
       </h2>
       <div className="icons">
-        <a href="#!">
-          <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
-        </a>
-
-        <a href="#!">
+        <a
+          href="https://www.linkedin.com/in/sal-jarrar-570b0410b/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
         </a>
-        <a href="#!">
+        <a
+          href="https://github.com/sal-jarrar"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} className="fa-2x" />
         </a>
       </div>
