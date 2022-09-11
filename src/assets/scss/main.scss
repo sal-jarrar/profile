@@ -186,8 +186,5 @@ main {
   padding: 1rem;
   background: darken($primary-color, 10);
   height: 60px;
-  .copy {
-    color: $secondary-color;
-  }
 }
 @import "mobile";

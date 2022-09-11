@@ -1,4 +1,7 @@
-import img from "../assets/img/background.jpeg";
+import fund from "../assets/img/fund.png";
+import zaza from "../assets/img/zaza.png";
+import tracker from "../assets/img/tracker.png";
+import voice from "../assets/img/voice.png";
 
 export const getNavItems = (route, show) => {
   return [
@@ -30,8 +33,29 @@ export const getNavItems = (route, show) => {
 };
 
 export const projects = [
-  { id: 1, href: "#", img, gitLink: "#" },
-  { id: 2, href: "#", img, gitLink: "#" },
-  { id: 3, href: "#", img, gitLink: "#" },
-  { id: 4, href: "#", img, gitLink: "#" },
+  {
+    id: 1,
+    href: "https://app.fundstory.com/login",
+    img: fund,
+    gitLink: "/#work",
+  },
+
+  {
+    id: 2,
+    href: "http://zazastore.herokuapp.com/",
+    img: zaza,
+    gitLink: "https://github.com/SultanJarrar89/zazacarstoy-React",
+  },
+  {
+    id: 3,
+    href: "https://deluxe-daffodil-c68fd4.netlify.app/",
+    img: tracker,
+    gitLink: "https://github.com/SultanJarrar89/Covid-19-Tracker",
+  },
+  {
+    id: 4,
+    href: "https://clinquant-vacherin-14e214.netlify.app/",
+    img: voice,
+    gitLink: "https://github.com/SultanJarrar89/VoiceExpenseTracker-React",
+  },
 ];

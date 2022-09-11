@@ -17,16 +17,26 @@ const About = () => {
           <div className="bio">
             <h3 className="text-secondary job-heading">BIO</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-              magni nam nisi quae vitae? Quod molestiae ipsa autem natus eum vel
-              ducimus nulla harum voluptatem eligendi! Unde, reiciendis?
-              Praesentium, laborum.
+              First and foremost, I love writing code. Ever since writing my
+              first program in JavaScript and manipulating it to produce a
+              desired output, I have been obsessed with the idea of using
+              software to solve practical problems. Software engineering is a
+              never-ending puzzle that I am passionately engaged in solving.
+            </p>
+
+            <p>
+              I love applying responsive design principles and watching my web
+              pages shrink into mobile screens and still look amazing. It's
+              oddly satisfying. I think in a way I'm kind of like those web
+              pages; I'm moldable, but I still keep my creative flare intact.
             </p>
           </div>
 
           <div className="job job-1">
-            <h3 className="job-heading">123 Webshop</h3>
-            <h6>Full Stack Developer</h6>
+            <h3 className="job-heading text-secondary">
+              FundStory | Atlanta, GA
+            </h3>
+            <h5>Full Stack Developer</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita
@@ -35,8 +45,10 @@ const About = () => {
           </div>
 
           <div className="job job-2">
-            <h3 className="job-heading">Designers ABC</h3>
-            <h6>Front End Developer</h6>
+            <h3 className="job-heading text-secondary">
+              Behaivior, LLC | Pittsburgh, PA
+            </h3>
+            <h6>Full Stack Developer</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita
@@ -45,8 +57,8 @@ const About = () => {
           </div>
 
           <div className="job job-3">
-            <h3 className="job-heading">Webworks</h3>
-            <h6>Graphic Designer</h6>
+            <h3 className="job-heading text-secondary">StockSwap LLC</h3>
+            <h6>Back-End Developer</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita
