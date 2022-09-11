@@ -30,6 +30,9 @@ h3 {
     background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
+.job-title {
+  margin-top: 0.4rem;
+}
 .job-heading {
   z-index: 1;
   position: relative;
@@ -46,7 +49,7 @@ header {
   width: 100%;
 }
 
-.text-secondary {
+.text-second {
   color: $secondary-color;
 }
 
@@ -176,7 +179,7 @@ main {
   color: #fff;
 }
 
-.btn-light {
+.btn-lighten {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;

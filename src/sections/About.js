@@ -6,7 +6,7 @@ const About = () => {
       <main id="about">
         <h1 className="lg-heading job-heading">
           About
-          <span className="text-secondary"> Me</span>
+          <span className="text-second"> Me</span>
         </h1>
         <h2 className="sm-heading job-heading">
           Let me tell you a few things...
@@ -15,7 +15,7 @@ const About = () => {
           <img src="img/portrait.jpg" alt="Sal Jarrar" className="bio-image" />
 
           <div className="bio">
-            <h3 className="text-secondary job-heading">BIO</h3>
+            <h3 className="text-second job-heading">BIO</h3>
             <p>
               First and foremost, I love writing code. Ever since writing my
               first program in JavaScript and manipulating it to produce a
@@ -33,10 +33,8 @@ const About = () => {
           </div>
 
           <div className="job job-1">
-            <h3 className="job-heading text-secondary">
-              FundStory | Atlanta, GA
-            </h3>
-            <h5>Full Stack Developer</h5>
+            <h3 className="job-heading text-second">FundStory | Atlanta, GA</h3>
+            <h5 className="job-title">Full Stack Developer</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita
@@ -45,10 +43,10 @@ const About = () => {
           </div>
 
           <div className="job job-2">
-            <h3 className="job-heading text-secondary">
+            <h3 className="job-heading text-second">
               Behaivior, LLC | Pittsburgh, PA
             </h3>
-            <h6>Full Stack Developer</h6>
+            <h5 className="job-title">Full Stack Developer</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita
@@ -57,8 +55,8 @@ const About = () => {
           </div>
 
           <div className="job job-3">
-            <h3 className="job-heading text-secondary">StockSwap LLC</h3>
-            <h6>Back-End Developer</h6>
+            <h3 className="job-heading text-second">StockSwap LLC</h3>
+            <h5 className="job-title">Back-End Developer</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptates perferendis totam enim. Nesciunt porro dolores expedita

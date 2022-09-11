@@ -12,7 +12,7 @@ const Home = ({ status }) => {
     <main id={`home`} className={overlay}>
       <h1 className="lg-heading">
         Sal
-        <span className="text-secondary"> Jarrar</span>
+        <span className="text-second"> Jarrar</span>
       </h1>
       <h2 className="sm-heading">
         Full Stack Engineer , Web Developer & Programmer

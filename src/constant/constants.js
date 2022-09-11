@@ -35,9 +35,10 @@ export const getNavItems = (route, show) => {
 export const projects = [
   {
     id: 1,
-    href: "https://app.fundstory.com/login",
+    href: "#javascript",
+    // href: "https://app.fundstory.com/login",
     img: fund,
-    gitLink: "/#work",
+    gitLink: "#javascript:;",
   },
 
   {
