@@ -55,3 +55,8 @@ $background-opacity: 0.9;
     @content;
   }
 }
+@mixin ipad {
+  @media screen and (min-width: 800px) and (max-width: 1180px) {
+    @content;
+  }
+}

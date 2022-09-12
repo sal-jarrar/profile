@@ -4,7 +4,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Home = ({ status }) => {
   const overlay = status ? "overlay" : "";
   return (
-    <main id={`home`} className={overlay}>
+    <main id="home" className={overlay}>
       <h1 className="lg-heading">
         Sal
         <span className="text-second"> Jarrar</span>
